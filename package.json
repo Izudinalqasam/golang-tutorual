@@ -1,0 +1,12 @@
+{
+  "name": "basic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "go run ./basic/variable.go"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
