@@ -1,3 +1,3 @@
-module github.com/golang-tutorial
+module github.com/Izudinalqasam/golang-tutorial
 
 go 1.17
