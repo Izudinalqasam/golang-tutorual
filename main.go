@@ -1,9 +1,12 @@
 package main
 
 import (
-	"golang-tutorial/goroutine"
+	"fmt"
+
+	"github.com/Izudinalqasam/golang-tutorial/basic"
 )
 
 func main() {
-	goroutine.MainGoroutine()
+	fmt.Println("Hello World")
+	basic.MainArray()
 }

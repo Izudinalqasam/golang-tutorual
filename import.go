@@ -3,7 +3,8 @@ package main
 // Use Blank identifier if you want to access init package without access any fucntion inside the package, e.g  _ "fmt"
 import (
 	"fmt"
-	"golang-tutorial/helper"
+
+	"github.com/Izudinalqasam/golang-tutorial/helper"
 )
 
 func mainImport() {

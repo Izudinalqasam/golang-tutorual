@@ -1,10 +1,11 @@
-package main
+package basic
 
 // Golang is case sensitive, uppercase and lowercase are different
 import (
 	"fmt"
-	"golang-tutorial/helper"
 	"time"
+
+	"github.com/Izudinalqasam/golang-tutorial/helper"
 )
 
 // if we declare variable but not initializing it, it will be default value of the data type (int -> 0), if you don't want it you can give nil
