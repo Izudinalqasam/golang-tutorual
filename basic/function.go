@@ -104,6 +104,8 @@ func spamFilter(name string) string {
 
 type Filter func(string) string
 
+type Filter2 func(string) string
+
 // Anonymous function (1)
 type Backlist func(string) bool
 
@@ -113,4 +115,8 @@ func registerUser(name string, blacklist Backlist) {
 	} else {
 		fmt.Println("wellcome ", name)
 	}
+}
+
+func doingFilter(input string, filter Filter2) string {
+	return filter(input)
 }

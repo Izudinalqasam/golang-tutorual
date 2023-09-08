@@ -64,7 +64,9 @@ type Address struct {
 	City, Province, Country string
 }
 
-// if you create method in struct, recommended to use pointer, so the memory will not be wasteful, by default if you create function for struct ,it is pass by value, so if you make any changes of data in struct it will not affect the source data struct outside the function
+// if you create method in struct, recommended to use pointer, so the memory will not be wasteful,
+// by default if you create function for struct ,it is pass by value, so if you make any changes of data in struct
+// it will not affect the source data struct outside the function
 
 type Man struct {
 	Name string

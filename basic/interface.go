@@ -33,6 +33,10 @@ type HasName interface {
 	getName() string
 }
 
+type GetName interface {
+	getName() string
+}
+
 func sayHello(hasName HasName) {
 	fmt.Println("Hello", hasName.getName())
 }

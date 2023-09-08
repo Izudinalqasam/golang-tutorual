@@ -33,6 +33,13 @@ func MainStruct() {
 	// call function Struct
 	rully := Customer{name: "Rully"}
 	rully.sayHello()
+
+	// Create Product
+	producer := Producer{
+		product: "Car",
+	}
+
+	fmt.Println(producer.product)
 }
 
 type Customer struct {
@@ -43,4 +50,8 @@ type Customer struct {
 // Example create a function for Struct
 func (customer Customer) sayHello() {
 	fmt.Println("Hello My Name is", customer.name)
+}
+
+type Producer struct {
+	product string
 }
