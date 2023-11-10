@@ -43,6 +43,7 @@ func bufferChannel() {
 		}
 
 		fmt.Println(time.Now(), "all Completed")
+		close(ch)
 	}()
 
 	time.Sleep(2 * time.Second)

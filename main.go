@@ -6,15 +6,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Izudinalqasam/golang-tutorial/basic"
-	"github.com/Izudinalqasam/golang-tutorial/goroutine"
+	packagego "github.com/Izudinalqasam/golang-tutorial/package_go"
 )
 
 func main() {
-	fmt.Println("Hello World")
-	basic.ContextPlayground()
-	//goroutine.MainGoroutine()
-	//handler()
+	packagego.MainPackageMath()
 
 	arr := []string{"coba1", "coba2", "coba3"}
 	arr2 := arr[1:]
@@ -23,7 +19,7 @@ func main() {
 	fmt.Println(arr[0])
 
 	// packagego.MainPackageRegexp()
-	goroutine.MainGoroutineLearning()
+	// goroutine.MainGoroutineDownloadSize()
 }
 
 func handler() {
