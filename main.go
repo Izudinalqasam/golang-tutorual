@@ -10,7 +10,7 @@ import (
 )
 
 func main() {
-	packagego.MainPackageMath()
+	packagego.MainPackageFile()
 
 	arr := []string{"coba1", "coba2", "coba3"}
 	arr2 := arr[1:]
